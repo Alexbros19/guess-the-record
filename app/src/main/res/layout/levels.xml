@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorProgressBackround">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"/>
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+            style="@style/menuBtnStyle"
+            android:text="@string/menu_btn"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".75"
+            android:background="@drawable/stars_image"/>
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:id="@+id/starsCounter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".75"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/display_number"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level1"
+                android:onClick="Level1"
+                android:src="@drawable/level1btnnostar"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level2"
+                android:onClick="Level2"
+                android:src="@drawable/level2btnnostar"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level3"
+                android:onClick="Level3"
+                android:src="@drawable/level3btnnostar"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level4"
+                android:src="@drawable/level4btnnostar"
+                android:onClick="Level4"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level5"
+                android:src="@drawable/level5btnnostar"
+                android:onClick="Level5"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level6"
+                android:src="@drawable/level6btnnostar"
+                android:onClick="Level6"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level7"
+                android:src="@drawable/level7btnnostar"
+                android:onClick="Level7"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level8"
+                android:src="@drawable/level8btnnostar"
+                android:onClick="Level8"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level9"
+                android:src="@drawable/level9btnnostar"
+                android:onClick="Level9"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level10"
+                android:src="@drawable/level10btnnostar"
+                android:onClick="Level10"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level11"
+                android:src="@drawable/level11btnnostar"
+                android:onClick="Level11"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level12"
+                android:src="@drawable/level12btnnostar"
+                android:onClick="Level12"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"/>
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/world1_title"
+            android:textSize="30sp"
+            android:gravity="center|right"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"/>
+        <ImageButton
+            android:id="@+id/nextLevelMenu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:src="@drawable/next_btn"
+            android:scaleType="fitXY"
+            android:onClick="LoadingWorld2"
+            android:background="?android:selectableItemBackground"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3889824584026064/2257238434">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

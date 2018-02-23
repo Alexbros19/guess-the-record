@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "691344528255",
+    "firebase_url": "https://guesstherecord.firebaseio.com",
+    "project_id": "guesstherecord",
+    "storage_bucket": "guesstherecord.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691344528255:android:d188413983295e7f",
+        "android_client_info": {
+          "package_name": "com.example.pidlubnyalexey.guesstherecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691344528255-ntgppb2qtaj2eubdd6ok09r503jphu0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pidlubnyalexey.guesstherecord",
+            "certificate_hash": "ff82aec19d8022abe3e454fd5c95dc940500fd6e"
+          }
+        },
+        {
+          "client_id": "691344528255-85n24klk2kevqskvoprkojhsvhfi4lei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pidlubnyalexey.guesstherecord",
+            "certificate_hash": "94a87fba8342b07d1b3e8c067de9e47bc7de84d4"
+          }
+        },
+        {
+          "client_id": "691344528255-6ujs86u25t72uet1ia49nf421n9m722d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2xqe7NA8xgCy5GR1Fj-GomgbFG8DWoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691344528255-6ujs86u25t72uet1ia49nf421n9m722d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

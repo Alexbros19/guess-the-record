@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorProgressBackround">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"/>
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+            style="@style/menuBtnStyle"
+            android:text="@string/menu_btn"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".75"
+            android:background="@drawable/stars_image"/>
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:id="@+id/starsCounterWorld2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".75"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/display_number"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level13"
+                android:onClick="Level13"
+                android:src="@drawable/level13btnnostar"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level14"
+                android:onClick="Level14"
+                android:src="@drawable/level14btnnostar"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level15"
+                android:onClick="Level15"
+                android:src="@drawable/level15btnnostar"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level16"
+                android:src="@drawable/level16btnnostar"
+                android:onClick="Level16"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level17"
+                android:src="@drawable/level17btnnostar"
+                android:onClick="Level17"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level18"
+                android:src="@drawable/level18btnnostar"
+                android:onClick="Level18"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level19"
+                android:src="@drawable/level19btnnostar"
+                android:onClick="Level19"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level20"
+                android:src="@drawable/level20btnnostar"
+                android:onClick="Level20"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level21"
+                android:src="@drawable/level21btnnostar"
+                android:onClick="Level21"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level22"
+                android:src="@drawable/level22btnnostar"
+                android:onClick="Level22"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level23"
+                android:src="@drawable/level23btnnostar"
+                android:onClick="Level23"/>
+            <ImageButton
+                style="@style/levelBtnStyle"
+                android:id="@+id/btn_level24"
+                android:src="@drawable/level24btnnostar"
+                android:onClick="Level24"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"/>
+        <ImageButton
+            android:id="@+id/backToWorld1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:src="@drawable/backworld_btn"
+            android:scaleType="fitXY"
+            android:onClick="BackToWorld1"
+            android:background="?android:selectableItemBackground"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"/>
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/world2_title"
+            android:textSize="30sp"
+            android:gravity="center|right"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3889824584026064/2257238434">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

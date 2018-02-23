@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/content_game"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/colorProgressBackround">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:background="@color/colorProgressBackround">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"/>
+        <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+            style="@style/backBtnStyle"
+            android:text="@string/back_btn"/>
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.5"
+            android:text="@string/app_name"
+            android:textColor="@color/colorMainFont"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/colorProgressBackround">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:background="@color/colorProgressBackround"
+        android:onClick="OnClickLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5">
+
+            <ImageButton
+                android:id="@+id/recordImage1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:onClick="OnClickImage1"
+                android:layout_margin="2dp"
+                android:src="@drawable/angry_birds"
+                android:background="?android:selectableItemBackground"/>
+            <ImageButton
+                android:id="@+id/recordImage2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:onClick="OnClickImage2"
+                android:layout_margin="2dp"
+                android:src="@drawable/assassins_creed"
+                android:background="?android:selectableItemBackground"/>
+        </LinearLayout>
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:id="@+id/recordTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:background="@color/colorDisplay"
+            android:text="GUESS THE NUMBER OF PEOPLE"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorRecordTitle"
+            android:textSize="20sp"/>
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:id="@+id/recordText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:text="The largest human mattress dominoes was achieved at an event organized by Stylution Int’l (China) Corp., and Ayd Group (China) in Wuhan, Hubei, China, on 23 July 2016.
+The attempt lasted 14 minutes and 47 seconds. Each mattress used was 200 cm X 90 cm."
+            android:textColor="@color/colorMainFont"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:background="@color/colorDisplay">
+
+        <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
+            android:id="@+id/txtViewEnterNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:textColor="@color/colorMainFont"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:background="@color/colorProgressBackround">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.75"
+        android:background="@color/colorProgressBackround">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="1"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="2"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="3"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="4"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="5"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="6"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="7"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="8"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="9"/>
+            <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+                style="@style/numberBtnStyle"
+                android:text="0"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:background="@color/colorProgressBackround">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".55"
+        android:background="@color/colorProgressBackround">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"/>
+        <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+            style="@style/resetBtnStyle"
+            android:onClick="OnClickReset"
+            android:text="AC"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4"/>
+        <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+            style="@style/okBtnStyle"
+            android:text="ok"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4"/>
+        <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
+            style="@style/resetBtnStyle"
+            android:onClick="OnClickClear"
+            android:text="C"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:background="@color/colorProgressBackround">
+    </LinearLayout>
+</LinearLayout>

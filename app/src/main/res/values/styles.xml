@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.GreenStyle</item>
+    </style>
+
+    <style name="ActionBar.Solid.GreenStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="levelBtnStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="numberBtnStyle">
+        <item name="android:background">@drawable/number_btn_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:onClick">OnClickNumber</item>
+    </style>
+
+    <style name="resetBtnStyle">
+        <item name="android:background">@drawable/number_btn_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+    </style>
+
+    <style name="okBtnStyle">
+        <item name="android:background">@drawable/number_btn_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:onClick">OnClickButtonOk</item>
+    </style>
+
+    <style name="backBtnStyle">
+        <item name="android:background">@drawable/number_btn_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:onClick">BackToLevelList</item>
+    </style>
+
+    <style name="menuBtnStyle">
+        <item name="android:background">@drawable/number_btn_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:onClick">OnClickBackToMenu</item>
+    </style>
+
+    <style name="playBtnStyle">
+        <item name="android:background">@drawable/number_btn_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:onClick">LoadLevelsMenu</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+    </style>
+</resources>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="play_btn">play</string>
+    <string name="back_btn">back</string>
+    <string name="app_name">Guess the record</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_btn">menu</string>
+    <string name="world1_title">World 1</string>
+    <string name="world2_title">World 2</string>
+
+    <string name="title_level1">Guess the diameter of pizza (m)</string>
+    <string name="title_level2">Guess the number of people</string>
+    <string name="title_level3">Guess the number of cards</string>
+    <string name="title_level4">Guess the number of meters</string>
+    <string name="title_level5">Guess the number of coconuts</string>
+    <string name="title_level6">Guess the number of push-ups</string>
+    <string name="title_level7">Guess the number of meters</string>
+    <string name="title_level8">Guess the number of dominoes</string>
+    <string name="title_level9">Guess the number of meters</string>
+    <string name="title_level10">Guess the number of roof tiles</string>
+    <string name="title_level11">Guess the number of seconds</string>
+    <string name="title_level12">Guess the number of pull ups</string>
+    <string name="title_level13">Guess the number of collection</string>
+    <string name="title_level14">Guess the number of rotations</string>
+    <string name="title_level15">Guess the number of crushed drinks</string>
+    <string name="title_level16">Guess the number of meters</string>
+    <string name="title_level17">Guess the number of hula hoops</string>
+    <string name="title_level18">Guess the number of collection</string>
+    <string name="title_level19">Guess the number of seconds</string>
+    <string name="title_level20">Guess the number of ice-cream scoops</string>
+    <string name="title_level21">Guess the weight of sculpture (kg)</string>
+    <string name="title_level22">Guess the number of candles</string>
+    <string name="title_level23">Guess the number of meters</string>
+    <string name="title_level24">Guess the number of plastic cup</string>
+
+    <string name="text_level1">The largest pizza has a total surface area of 1261.65 m2 and was prepared by Dovilio Nardi, Andrea Mannocchi, Marco Nardi, Matteo Nardi and Matteo Giannotte (all Italy) in Rome, Italy, on 13 December 2012.</string>
+    <string name="text_level2">The largest human mattress dominoes was achieved at an event organized by Stylution Intl (China) Corp., and Ayd Group (China) in Wuhan, Hubei, China, on 23 July 2016. The attempt lasted 14 minutes and 47 seconds.</string>
+    <string name="text_level3">The largest playing card structure was a replica of The Venetian® Macao, The Plaza® Macao and Sands Macao. It measured 10.39 m long, 2.88 m tall and 3.54 m wide, and was created by Bryan Berg (USA) in Macau, China, on 10 March 2010.</string>
+    <string name="text_level4">Underwater cyclist Homar Leuci from Italy travels record distance on static bike in one breath - Guinness World Records Italian Show</string>
+    <string name="text_level5">The most coconuts smashed around a person while blindfolded in one minute and was achieved by Karamjit Singh and Kawaljit Singh (both India) on the set of Lo Show dei Record in Milan, Italy, on 25 July 2014.</string>
+    <string name="text_level6">The most push-ups using the backs of the hands in one hour was set by Paddy Doyle (UK) at Staminas Boxing Self Defence Gym in Erin Go Bragh Sports Centre, Birmingham, UK, on 8 November 2007</string>
+    <string name="text_level7">The longest distance pulled by a horse while on full body burn was achieved by Josef Todtling (Austria) in Teichalm-Fladnitz, Styria, Austria, on 27 June 2015.</string>
+    <string name="text_level8">The longest domino wall is 40.14 metres, achieved by Tulln Domino Team (Austria), in Tulln, Austria, on 22 March 2016.</string>
+    <string name="text_level9">The greatest distance travelled with a pool cue on the chin set by Ashrita Furman (USA) at the Joe Austin Playground in Jamaica, New York, USA, on 6 July 2008.</string>
+    <string name="text_level10">The most roof tiles broken in one minute (female) was achieved by Lisa Dennis (UK) on the set of Lo Show dei Record in Milan, Italy, on 11 July 2014.</string>
+    <string name="text_level11">The fastest 50 metres walking on hands with a football (soccer ball) between the legs was achieved by Zhang Shuang (China) at the China West Normal University, in Nanchong, Sichuan, China on 30 April 2016.</string>
+    <string name="text_level12">The most pull ups in 24 hours (female) was achieved by Eva Clarke (Australia) at Al Wahda Mall in Abu Dhabi, UAE on 10 March 2016.</string>
+    <string name="text_level13">Largest collection of Star Wars memorabilia.Steve Sansweet (USA) has amassed an estimated unique items at Rancho Obi-Wan in northern California, USA.</string>
+    <string name="text_level14">The most rotations hanging from a power drill in a minute achieved by The Huy Giang (Germany) on the set of Guinness World Records, in Madrid, Spain, on 23 December 2008.</string>
+    <string name="text_level15">Most drink cans crushed with elbow in one minute achieved by martial arts expert Muhammad Rashid from Pakistan.</string>
+    <string name="text_level16">Worlds longest golf putt. Brett Stanford managed the historical shot at the Point Walter Golf Course, Western Australia.</string>
+    <string name="text_level17">The most hula hoops spun simultaneously was achieved by Marawa Ibrahim in Los Angeles, USA, on 25 November 2015.</string>
+    <string name="text_level18">The largest collection of Guinness World Records memorabilia is owned by Martyn Tovey (UK) of Radstock, UK. The achievement was verified on 25 September 2014.</string>
+    <string name="text_level19">The longest duration balancing on four fingers was achieved by Wang Weibao (China) on the set of Zheng Da Zong Yi, China, on 9 November 2008.</string>
+    <string name="text_level20">At the annual Gelatimo ice-cream festival in Forno di Zoldo, Italy, Dimitri Panciera achieved the Guinness World Records title for the Most ice-cream scoops balanced on a cone.</string>
+    <string name="text_level21">Worlds largest chocolate sculpture erected in California. Created by corporate chef Francois Mellet (France, USA), the chocolate pyramid was set up at the the Qzina Institute of Chocolate and Pastry.</string>
+    <string name="text_level22">Most candles on a birthday cake were lit and remained burning for about 40 seconds. Taking place at the Sri Chinmoy Centre in New York.</string>
+    <string name="text_level23">Freediving athlete Johanna Nordblad sets record swimming under frozen lake on 14 March 2015 in Asikkala, Finland</string>
+    <string name="text_level24">A group of dedicated students from the University of Delhi in India have achieved a Guinness World Records title for constructing the Largest plastic cup pyramid.</string>
+
+    <string name="about">About</string>
+    <string name="aboutText">This App has been programmed by Alexey Pidlubny.
+                             You have the possibility to contact me by sending message on my email:
+                             p.alexey.m@gmail.com
+                             Main idea of game is to guess the record.
+                             First of all you select level and then read record info, you can pick the image and it increases in size.
+                             You should enter your variant of record value.
+                             Then you will see how you were right in progress bar.
+                             To go to the next world you should collect 30 stars.
+                             I hope you have fun with this App!</string>
+    <string name="unlock_world2">Collect 30 stars to unlock World 2!\</string>
+    <string name="increase_image">Click on image to increase it!</string>
+</resources>
