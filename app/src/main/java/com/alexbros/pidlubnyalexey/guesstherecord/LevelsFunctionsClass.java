@@ -1,7 +1,7 @@
 package com.alexbros.pidlubnyalexey.guesstherecord;
 
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageButton;
 
 import com.google.android.gms.ads.AdRequest;
