@@ -58,9 +58,7 @@
     <string name="text_level24">A group of dedicated students from the University of Delhi in India have achieved a Guinness World Records title for constructing the Largest plastic cup pyramid.</string>
 
     <string name="about">About</string>
-    <string name="aboutText">This App has been programmed by Alexey Pidlubny.
-                             You have the possibility to contact me by sending message on my email:
-                             p.alexey.m@gmail.com
+    <string name="aboutText">
                              Main idea of game is to guess the record.
                              First of all you select level and then read record info, you can pick the image and it increases in size.
                              You should enter your variant of record value.

@@ -1,185 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="@drawable/menu_ground">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight=".25">
-    </LinearLayout>
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_ground"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight=".5">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2.25"/>
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight=".75"
-            android:background="@drawable/new_score_image"/>
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/new_score_image"
+            tools:ignore="ContentDescription" />
+
         <com.alexbros.pidlubnyalexey.guesstherecord.TextViewPlus
             android:id="@+id/rating"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="0"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/display_number"
             android:gravity="center"
             android:textSize="20sp"
-            android:background="@drawable/display_number"/>
-        <ImageView
+            tools:text="111" />
+
+        <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2.25"/>
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="6.5">
+        android:layout_weight="1"
+        android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="match_parent"
+        <View
+            android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight="2.5"/>
+            android:layout_weight="1" />
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1.5">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-            <ImageView
+            <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"/>
+                android:layout_weight="1" />
+
             <com.alexbros.pidlubnyalexey.guesstherecord.ButtonPlus
-                style="@style/playBtnStyle"
-                android:id="@+id/playbtn"
-                android:text="@string/play_btn"/>
-            <ImageView
+                android:id="@+id/play"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/number_btn_style"
+                android:text="@string/play_btn"
+                android:textColor="@color/colorMainFont"
+                android:textSize="30sp" />
+
+            <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"/>
+                android:layout_weight="1" />
         </LinearLayout>
 
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2.5">
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-                <ImageView
+                <View
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1.5"/>
+                    android:layout_weight="1" />
+
                 <ImageButton
                     android:id="@+id/change_on_english"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="onChangeToENClicked"
-                    android:src="@drawable/british_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="?android:selectableItemBackground"
                     android:scaleType="fitXY"
-                    android:background="?android:selectableItemBackground"/>
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:src="@drawable/british_icon"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
                 <ImageButton
                     android:id="@+id/change_on_russian"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="onChangeToRUClicked"
-                    android:src="@drawable/russian_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
                     android:scaleType="fitXY"
-                    android:background="?android:selectableItemBackground"/>
-                <ImageView
+                    android:src="@drawable/russian_icon"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
+                <View
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1.5"/>
+                    android:layout_weight="1" />
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
 
-        <ImageView
+        <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
+
         <ImageButton
-            android:id="@+id/aboutbtn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="buttonAboutClick"
+            android:id="@+id/about"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="fitXY"
             android:src="@drawable/infoicon"
-            android:scaleType="fitXY"
-            android:background="?android:selectableItemBackground"/>
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight=".25"/>
+            tools:ignore="ContentDescription" />
+
         <ImageButton
-            android:id="@+id/languagebtn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:id="@+id/language"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="?android:selectableItemBackground"
             android:onClick="buttonChangeLanguageClick"
+            android:scaleType="fitXY"
             android:src="@drawable/change_language_btn"
-            android:scaleType="fitXY"
-            android:background="?android:selectableItemBackground"/>
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight=".25"/>
+            tools:ignore="ContentDescription" />
+
         <ImageButton
-            android:id="@+id/musicbtn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="ButtonMusic"
-            android:src="@drawable/musicon"
+            android:id="@+id/music"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="buttonMusic"
             android:scaleType="fitXY"
-            android:background="?android:selectableItemBackground"/>
-        <ImageView
+            android:src="@drawable/musicon"
+            tools:ignore="ContentDescription" />
+
+        <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight=".75">
+            android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>

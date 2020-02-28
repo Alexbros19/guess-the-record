@@ -113,7 +113,7 @@ public class LevelLoadingWorld2 extends LevelsFunctionsClass {
 
 	public void OnClickBackToMenu(View view){
 		continueMusic = true;
-		Intent i = new Intent(LevelLoadingWorld2.this, MainMenu.class);
+		Intent i = new Intent(LevelLoadingWorld2.this, Menu.class);
 		startActivity(i);
 	}
 

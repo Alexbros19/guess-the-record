@@ -81,7 +81,7 @@ public class LevelsLoading extends LevelsFunctionsClass{
     public void onBackPressed() {
         // super.onBackPressed();
 		continueMusic = true;
-        Intent i = new Intent(LevelsLoading.this, MainMenu.class);
+        Intent i = new Intent(LevelsLoading.this, Menu.class);
         startActivity(i);
     }
 
@@ -132,7 +132,7 @@ public class LevelsLoading extends LevelsFunctionsClass{
 
 	public void OnClickBackToMenu(View view){
         continueMusic = true;
-		Intent i = new Intent(LevelsLoading.this, MainMenu.class);
+		Intent i = new Intent(LevelsLoading.this, Menu.class);
 		startActivity(i);
 	}
 	//-------------------------DATA TRANSMISSION ON CLICK LEVEL BUTTON------------------------------
